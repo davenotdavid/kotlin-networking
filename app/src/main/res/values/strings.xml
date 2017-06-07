@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kotlin Networking</string>
+    <string name="query_param_source">source</string>
+    <string name="query_param_apikey">apiKey</string>
+    <string name="news_source" translatable="false">ars-technica</string>
+    <string name="news_source_title" >Ars Technica</string>
+    <string name="toast_no_int_connection">No internet connection</string>
+
+    <!-- News API key. -->
+    <string name="news_api_key" translatable="false">c6f9761272e94a7fb5bdc53820093348</string>
+</resources>

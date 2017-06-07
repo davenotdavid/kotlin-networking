@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ArticleActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:padding="@dimen/activity_padding_default"
+        android:textColor="@color/colorBlack"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="News Source" />
+
+    <View
+        android:background="@color/colorLightGray"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+</FrameLayout>
